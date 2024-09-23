@@ -5,7 +5,7 @@ const NavItems = () => {
   return (
     <>
       {isLg ? (
-        <ul className="flex gap-12 items-center">
+        <ul className="flex gap-12 items-center flex-col lg:flex-row">
           <li className="text-lg font-semibold transition duration-[250] ease-linear list-none hover:text-blue-500">
             <NavLink
               to="/"
